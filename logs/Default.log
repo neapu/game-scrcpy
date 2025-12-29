@@ -1,0 +1,6 @@
+[2025-12-29 18:05:23.321][HEADER][PID:3540]
+[2025-12-29 18:05:23.318][Default][DEBUG][TID:9792][main.cpp:17][ENTER][int __cdecl main(int,char *[])]
+[2025-12-29 18:05:28.409][Default][DEBUG][TID:9792][main.cpp:17][EXIT][int __cdecl main(int,char *[])]
+[2025-12-29 18:11:52.139][HEADER][PID:23388]
+[2025-12-29 18:11:52.137][Default][DEBUG][TID:21096][main.cpp:17][ENTER][int __cdecl main(int,char *[])]
+[2025-12-29 18:11:53.564][Default][DEBUG][TID:21096][main.cpp:17][EXIT][int __cdecl main(int,char *[])]
