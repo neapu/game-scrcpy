@@ -1,0 +1,13 @@
+{
+  "name": "game-scrcpy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix setup",
+    "build:core:debug": "cd core && cmake --preset win-debug && cmake --build --preset win-debug",
+    "build:core:release": "cd core && cmake --preset win-release && cmake --build --preset win-release",
+    "build:setup": "npm run build --prefix setup",
+    "build": "npm run build:core:release && npm run build:setup",
+    "dev:setup": "npm run build:core:debug && npm run dev --prefix setup"
+  }
+}
