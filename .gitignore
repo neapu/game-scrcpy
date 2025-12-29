@@ -2,3 +2,7 @@ node_modules
 .idea/
 .trae/
 log/
+core/third_party/ffmpeg
+core/third_party/sdl3
+temp
+
