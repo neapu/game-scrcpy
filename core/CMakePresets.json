@@ -8,10 +8,22 @@
     "cacheVariables": {
       "CMAKE_BUILD_TYPE": "Debug"
     }
+  }, {
+    "name": "linux-debug",
+    "displayName": "Linux Debug",
+    "generator": "Unix Makefiles",
+    "binaryDir": "${sourceDir}/build/linux-debug",
+    "cacheVariables": {
+      "CMAKE_BUILD_TYPE": "Debug"
+    }
   }],
   "buildPresets": [{
     "name": "win-debug",
     "configurePreset": "win-debug",
+    "configuration": "Debug"
+  }, {
+    "name": "linux-debug",
+    "configurePreset": "linux-debug",
     "configuration": "Debug"
   }]
 }

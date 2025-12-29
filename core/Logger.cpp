@@ -7,6 +7,7 @@
 #include <filesystem>
 #include <ctime>
 #include <iostream>
+#include <thread>
 
 std::string Logger::s_logPath;
 std::map<std::string, std::ofstream> Logger::s_ofstreamMap;
